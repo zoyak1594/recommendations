@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  width: 50%;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  width: 50%;
+  color: #373ee5;
+}
