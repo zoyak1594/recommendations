@@ -8,6 +8,7 @@ import { useState } from "react";
 import supabase from "../components/SupabaseClient";
 
 export default function Home() {
+  // store data
   const router = useRouter();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

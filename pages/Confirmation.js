@@ -4,6 +4,7 @@ import supabase from "../components/SupabaseClient";
 import { useRouter } from "next/router";
 
 function Confirmation() {
+  // hello world
   const router = useRouter();
   const { id } = router.query;
   const [submitted, setSubmitted] = useState(false);
